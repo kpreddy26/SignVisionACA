@@ -1,1 +1,2 @@
 # SignVisionACA
+This project is an end-to-end Computer Vision pipeline built from scratch using PyTorch to recognize and translate American Sign Language (ASL) alphabet gestures into text. It features a custom 3-stage Convolutional Neural Network (CNN) architecture trained with GPU acceleration to process normalized image tensors across 29 distinct gesture classes. Optimized using the Adam optimizer over 10 training epochs, the final model achieved near-perfect performance with a 99.93% validation accuracy and F1-score.
